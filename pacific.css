@@ -1,0 +1,130 @@
+/*
+Christa Davis
+GUI Programming I
+Homework Assignment 2
+6/8/22
+The purpose of this program is to exercise best CSS practices. None of the
+HTML in index.html was changed, and CSS was used to properly format the site.
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+/* Wrapper surrounds the page and gives general attributes */
+#wrapper{
+	background-color: #90C8E3;
+	width: 80%;
+	min-width: 600px;
+	margin-left:0px auto; /* auto left/right margin to center */
+	margin-right:0px auto;
+
+}
+/* Header is the image spanned across the top with the title */
+header{
+	background-image: url("sunset.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	color:white;
+	background-color: #010036;
+}
+/* Body is all main content like text, nav, and images */
+body {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #00569F;
+	background-image: url("ptrbackground.jpg");
+}
+/* Nav bar general format. Float left to get vertical lefthand bar.
+	 Padding is not picked specifically and can be changed - it looked
+	 most similar to the example. */
+nav{
+	float:left;
+	font-weight:bold;
+	width: 150px;
+	padding-top: 25px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+}
+
+nav ul {
+	font-size: 1.2em;
+	margin:0px;
+	list-style-type: none;
+	padding-left: 0;
+}
+/* Unordered list. Margins to correct formatting otherwise it crowds the image*/
+ul{
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end:0px;
+	padding-inline-start:50px;
+}
+
+nav a{
+	text-decoration: none;
+	color:darkblue;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: white;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3E9CC5;
+}
+
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+/*General content - text, image, paragraph, etc. padding and style format */
+#content{
+  list-style-image: url("marker.gif");
+	margin-left: 180px;
+	padding-top: 2px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left:20px;
+	background-color: white;
+  list-style-position: inside;
+}
+/*Float image left to keep it on left with text wrap */
+img{
+	float:left;
+	padding-right:25px;
+}
+
+p{
+	margin-left:320px;
+}
+
+#contact {
+	font-size: 90%;
+}
+.resort{
+	color:#707EA5;
+	font-weight: bold;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 180px;
+	background-color:white;
+	padding-left: 20px;
+	font-size: 80%;
+	font-style: italic;
+}

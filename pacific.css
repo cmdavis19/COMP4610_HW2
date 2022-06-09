@@ -15,8 +15,8 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	background-color: #90C8E3;
 	width: 80%;
 	min-width: 600px;
-	margin-left:0px auto; /* auto left/right margin to center */
-	margin-right:0px auto;
+	margin-left:auto; /* auto left/right margin to center */
+	margin-right:auto;
 
 }
 /* Header is the image spanned across the top with the title */
